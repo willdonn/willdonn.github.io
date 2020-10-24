@@ -1,0 +1,22 @@
+
+* { 
+    box-sizing: border-box;
+}
+
+nav{
+    background-color:cadetblue;
+    display: flex;
+}
+
+nav a {
+    padding: 20px 16px;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: #6FCCB1;
+}
+
