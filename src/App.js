@@ -3,6 +3,19 @@ import React from 'react';
 import './App.css';
 import Home from './Home';
 import ThreeDPrinting from './3DPrinting';
+import Checkers from './Checkers';
+import ReactGA from 'react-ga';
+import { createBrowserHistory } from 'history';
+
+const trackingId = "G-5MFR4H6KR9"; // Replace with your Google Analytics tracking ID
+ReactGA.initialize(trackingId);
+const history = createBrowserHistory();
+
+// Initialize google analytics page view tracking
+history.listen(location => {
+  ReactGA.set({ page: location.pathname }); // Update the user's current page
+  ReactGA.pageview(location.pathname); // Record a pageview for the given page
+});
 
 class App extends React.Component 
 {
@@ -10,17 +23,18 @@ class App extends React.Component
   {
     return (
 
-      <Router>
+      <Router history={history}>
         <nav>
-          <NavLink exact to="/"><a>Will Donaldson</a></NavLink>
-          <NavLink to="/3DPrinting"><a>3D Printing</a></NavLink>
-          
+          <NavLink exact to="/">Will Donaldson</NavLink>
+          <NavLink to="/3DPrinting">3D Printing</NavLink>
+          <NavLink to="/Checkers">Checkers</NavLink>
         </nav>
 
         <div>
           
           <Route exact path="/" component={Home}/>
           <Route path="/3DPrinting" component={ThreeDPrinting}/>
+          <Route path="/Checkers" component={Checkers}/>
         </div>
 
       </Router>

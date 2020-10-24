@@ -5,7 +5,8 @@ class ThreeDPrinting extends React.Component {
     render() {
       return (
         <div>
-        
+            <h1>Hobby Designs</h1>
+            <p>I own a small 3D printer, these are some of the design I have made and printed for fun</p><br/>
             <table class="tstyle">
             <caption>Keychains</caption>
                 <tr>

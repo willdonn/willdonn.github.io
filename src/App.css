@@ -4,7 +4,7 @@
 }
 
 nav{
-    background-color:cadetblue;
+    background-color: salmon;
     display: flex;
 }
 
@@ -17,6 +17,39 @@ nav a {
 }
 
 nav a:hover{
-    background-color: #6FCCB1;
+    background-color: palevioletred;
 }
 
+.container {
+    border: 1px solid #c3c3c3;
+  }
+
+.right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.image {
+    padding-right: 40px;
+    padding-bottom: 20px;
+    width: 300px;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    margin-top: 0;
+    font-style: italic;
+}
+
+.map-two{
+	border: 1px solid black;
+	width: 47%;
+	float: right;
+	height: 500px;
+	padding: 10px;
+	margin: 5px;
+}
