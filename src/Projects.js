@@ -1,19 +1,19 @@
 import React from 'react';
 import './App.css';
 
-class Checkers extends React.Component {
+class Projects extends React.Component {
   
     render() {
       return (
         <div>
           <div class="container">
-            <h1>About</h1>
-            <img src="Checkers.png" atl="Checkers Screen" class="image"/>
+            <h1>Checkers</h1>
+            <img src="Checkers.png" alt="Checkers Screen" class="image"/>
             <div class="right">
               <h2>Checkers Implementation Written in Java</h2>
               <a href="https://github.com/willdonn/Checkers">Source code</a>
               <p>Uses Java Swing framework for UI. Two player or one player game modes available. Currently working on implementing a minimax algorithm for single player mode.</p>
-              <p>Download the executable Jar <a href="WilldonnCheckers.jar">here</a>.</p>
+              <p>Download the executable Jar<a href="WilldonnCheckers.jar">here</a>.</p>
             </div><br/>
             
           </div>
@@ -22,4 +22,4 @@ class Checkers extends React.Component {
     }
   }
 
-export default Checkers;
+export default Projects;

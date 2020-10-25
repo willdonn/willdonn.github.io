@@ -1,5 +1,8 @@
 import React from 'react';
 import './App.css';
+
+import { ReactBingmaps } from 'react-bingmaps';
+
 class Home extends React.Component {
 
     render() {
@@ -8,34 +11,36 @@ class Home extends React.Component {
           <div class="container">
             <h1>About Me</h1>
             
-            <div class="right">
+            <div>
               <p>I am a fourth year Software Engineering and Management Student from McMaster University.</p>
-              
-            </div>
-            <ul>
+              <p>Find Me On:</p>
+              <ul>
                 <li>
                   <a href="https://www.linkedin.com/in/will-donaldson528">LinkedIn</a>
                 </li>
                 <li>
-                  <a href="https://github.com/willdonn">github</a>
+                  <a href="https://github.com/willdonn">GitHub</a>
                 </li>
                 <li>
                   <a href="https://mcmasterneudose.ca/team">McMaster Neudose</a>
                 </li>
               </ul>
+            </div>
             
+            <img src="kite.png" class="image2" alt="Kite"/>
+
           </div>
           
           <div class="container">
             <h1>Work Experience</h1>
             <a href="Will_Donaldson_Resume.pdf">Resume</a><br/>
-            <img src="fireball-blue.png" atl="McMaster Fireball" class="image"/>
+            <img src="fireball-blue.png" alt="McMaster Fireball" class="image"/>
             <div class="right">
               <h2>Digital Systems and Interfacing Teaching Assistant - McMaster University</h2>
               <p class="subtitle">September 2020 - December 2020</p>
               <a href="http://www.cas.mcmaster.ca/~leduc/2D04.html">course website</a>
               <p>I am responsible for supervising, assisting, and evaluating student's lab work.</p>
-              <p>The labs consist of program Intel FPGAs using <a href="https://www.intel.ca/content/www/ca/en/software/programmable/quartus-prime/overview.html">Quartus Prime</a>.</p>
+              <p>The labs consist of program Intel FPGAs using<a href="https://www.intel.ca/content/www/ca/en/software/programmable/quartus-prime/overview.html">Quartus Prime</a>.</p>
             </div><br/>
             <img src="internshipwill.jpg" alt="Will Selfie" class="image"/>
             <div class="right">

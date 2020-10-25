@@ -3,7 +3,8 @@ import React from 'react';
 import './App.css';
 import Home from './Home';
 import ThreeDPrinting from './3DPrinting';
-import Checkers from './Checkers';
+import Projects from './Projects';
+import Contact from './Contact';
 import ReactGA from 'react-ga';
 import { createBrowserHistory } from 'history';
 
@@ -27,14 +28,16 @@ class App extends React.Component
         <nav>
           <NavLink exact to="/">Will Donaldson</NavLink>
           <NavLink to="/3DPrinting">3D Printing</NavLink>
-          <NavLink to="/Checkers">Checkers</NavLink>
+          <NavLink to="/Projects">Projects</NavLink>
+          <NavLink to="/Contact">Contact</NavLink>
         </nav>
 
         <div>
           
           <Route exact path="/" component={Home}/>
           <Route path="/3DPrinting" component={ThreeDPrinting}/>
-          <Route path="/Checkers" component={Checkers}/>
+          <Route path="/Projects" component={Projects}/>
+          <Route path="/Contact" component={Contact} />
         </div>
 
       </Router>
