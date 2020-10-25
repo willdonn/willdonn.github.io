@@ -1,4 +1,5 @@
 import React from 'react';
+import Slideshow from './Slideshow';
 import './App.css';
 
 import { ReactBingmaps } from 'react-bingmaps';
