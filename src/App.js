@@ -1,4 +1,4 @@
-import {HashRouter as Router, Route, Link, NavLink} from 'react-router-dom';
+import {BrowserRouter as Router, Route, NavLink} from 'react-router-dom';
 import React from 'react';
 import './App.css';
 import Home from './Home';
@@ -27,17 +27,17 @@ class App extends React.Component
       <Router history={history}>
         <nav>
           <NavLink exact to="/">Will Donaldson</NavLink>
-          <NavLink to="/3DPrinting">3D Printing</NavLink>
-          <NavLink to="/Projects">Projects</NavLink>
-          <NavLink to="/Contact">Contact</NavLink>
+          <NavLink to="/3Dprinting">3D Printing</NavLink>
+          <NavLink to="/projects">Projects</NavLink>
+          {/* <NavLink to="/Contact">Contact</NavLink> */}
         </nav>
 
         <div>
           
           <Route exact path="/" component={Home}/>
-          <Route path="/3DPrinting" component={ThreeDPrinting}/>
-          <Route path="/Projects" component={Projects}/>
-          <Route path="/Contact" component={Contact} />
+          <Route path="/3Dprinting" component={ThreeDPrinting}/>
+          <Route path="/projects" component={Projects}/>
+          {/* <Route path="/Contact" component={Contact} /> */}
         </div>
 
       </Router>

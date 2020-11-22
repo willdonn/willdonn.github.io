@@ -8,7 +8,7 @@ class Projects extends React.Component {
         <div>
           <div class="container">
             <h1>Checkers</h1>
-            <img src="Checkers.png" alt="Checkers Screen" class="image"/>
+            <img src="images/Checkers.png" alt="Checkers Screen" class="image"/>
             <div class="right">
               <h2>Checkers Implementation Written in Java</h2>
               <a href="https://github.com/willdonn/Checkers">Source code</a>
