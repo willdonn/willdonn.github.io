@@ -8,7 +8,7 @@ class Projects extends React.Component {
         <div>
           <div class="container">
             <h1>Conway's Game Of Life</h1>
-            <img src="images/Conway'sGameOfLife.png" alt="Conway Screen" class="image"/>
+            <img src="images/GameOfLife.png" alt="Conway Screen" class="image"/>
             <div class="right">
               <h2>Conway's Game of Life Implementation Written in Java</h2>
               <a href="https://github.com/willdonn/GameOfLife">Source code</a>
