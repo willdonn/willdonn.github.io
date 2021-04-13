@@ -37,11 +37,26 @@ class Home extends React.Component {
             <a href="Will_Donaldson_Resume.pdf">Resume</a><br/>
             <img src="images/fireball-blue.png" alt="McMaster Fireball" class="image"/>
             <div class="right">
+              <h2>Software Engineering Practice and Experience: Binding Theory to Practice Teaching Assistant - McMaster University</h2>
+              <p class="subtitle">January 2021 - April 2021</p>
+              <p>I am responsible for assiting with, and evaluating student's lab work.</p>
+              <p>The labs consist of implementing a variety of algorithms Including:</p><br/>
+              <ul>
+                <li>Red Black trees</li>
+                <li>Password hashing</li>
+                <li>Graph representations</li>
+                <li>Basic graph algorithms: DFS, BFS, topological sort, etc.</li>
+                <li>Minimum Spanning Tree algorithms</li>
+                <li>Shortest Path algorithms</li>
+              </ul>
+            </div><br/>
+            <img src="images/fireball-blue.png" alt="McMaster Fireball" class="image"/>
+            <div class="right">
               <h2>Digital Systems and Interfacing Teaching Assistant - McMaster University</h2>
               <p class="subtitle">September 2020 - December 2020</p>
               <a href="http://www.cas.mcmaster.ca/~leduc/2D04.html">course website</a>
               <p>I am responsible for supervising, assisting, and evaluating student's lab work.</p>
-              <p>The labs consist of program Intel FPGAs using<a href="https://www.intel.ca/content/www/ca/en/software/programmable/quartus-prime/overview.html">Quartus Prime</a>.</p>
+              <p>The labs consist of programming Intel FPGAs using<a href="https://www.intel.ca/content/www/ca/en/software/programmable/quartus-prime/overview.html">Quartus Prime</a>.</p>
             </div><br/>
             <img src="images/internshipwill.jpg" alt="Will Selfie" class="image"/>
             <div class="right">
