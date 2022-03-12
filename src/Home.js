@@ -13,7 +13,7 @@ class Home extends React.Component {
             <h1>About Me</h1>
             
             <div>
-              <p>I am a fourth year Software Engineering and Management Student from McMaster University.</p>
+              <p>I am a final year Software Engineering and Management Student from McMaster University.</p>
               <p>Find Me On:</p>
               <ul>
                 <li>
@@ -21,9 +21,6 @@ class Home extends React.Component {
                 </li>
                 <li>
                   <a href="https://github.com/willdonn">GitHub</a>
-                </li>
-                <li>
-                  <a href="https://mcmasterneudose.ca/team">McMaster Neudose</a>
                 </li>
               </ul>
             </div>
