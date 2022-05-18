@@ -13,7 +13,7 @@ class Home extends React.Component {
             <h1>About Me</h1>
             
             <div>
-              <p>I am a final year Software Engineering and Management Student from McMaster University.</p>
+              <p>I am a new graduate Software Engineer from McMaster University's Software Engineering and Management program.</p>
               <p>Find Me On:</p>
               <ul>
                 <li>
@@ -69,8 +69,8 @@ class Home extends React.Component {
           <img src="images/will.jpeg" alt="Will Portrait" class="image"/>
             <div class="right">
               <h2>Firmware Specialist - McMaster Interdisiplinary Satellite Team</h2>
-              <p class="subtitle">September 2017 - Present</p>
-              <p>I am currently working on developing/ testing firmware written in C++ for the<a href="https://mcmasterneudose.ca">McMaster Neudose Mission</a>.</p>
+              <p class="subtitle">September 2017 - May 2021</p>
+              <p>I worked on developing/ testing real time embedded firmware written in C++ for the<a href="https://mcmasterneudose.ca">McMaster Neudose Mission</a>.</p>
               <p>The development includes:</p>
               <ul>
                 <li>Firm Real Time Application Logic</li>
