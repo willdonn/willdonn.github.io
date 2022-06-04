@@ -6,7 +6,16 @@ class Projects extends React.Component {
     render() {
       return (
         <div>
+          <h1>Projects</h1>
           <div class="container">
+            <h1>Shopify Shipping Cost App</h1>
+            <img src="images/Shopify_shipping_cost_app.png" alt="Shopify shipping cost" class="image"/>
+            <div class="right">
+              <h2>Shopify custom shipping app Written in Javascript</h2>
+              <p>Custom shipping cost application developed for local Shopify business using Google Maps API.</p>
+              <p>Uses Node.js hosted on Heroku to service shipping cost api requests.</p>
+              <p>Visit the Shopify store<a href='https://monumentmanager.ca/'>here</a>.</p>
+            </div><br/>
             <h1>Conway's Game Of Life</h1>
             <img src="images/GameOfLife.png" alt="Conway Screen" class="image"/>
             <div class="right">

@@ -32,11 +32,17 @@ class Home extends React.Component {
           <div class="container">
             <h1>Work Experience</h1>
             <a href="Will_Donaldson_Resume.pdf">Resume</a><br/><br/>
+            <img src="images/gymnext_logo.png" alt="GymNext Logo" class="image"/>
+            <div class="right">
+              <h2>Engineering Intern</h2>
+              <p class="subtitle">May 2021 - August 2021</p>
+              <p>I completed a 4 month Co-op at GymNext developing a new battery powered Bluetooth clock product.</p>
+            </div><br/><br/>
             <img src="images/fireball-blue.png" alt="McMaster Fireball" class="image"/>
             <div class="right">
               <h2>Software Engineering Practice and Experience TA - McMaster University</h2>
               <p class="subtitle">January 2021 - April 2021</p>
-              <p>I am responsible for assiting with, and evaluating student's lab work.</p>
+              <p>Responsible for assiting with and evaluating student's lab work.</p>
               <p>The labs consist of implementing a variety of algorithms Including:</p>
               <ul>
                 <li>Red Black trees</li>
@@ -50,9 +56,9 @@ class Home extends React.Component {
             <img src="images/fireball-blue.png" alt="McMaster Fireball" class="image"/>
             <div class="right">
               <h2>Digital Systems and Interfacing TA - McMaster University</h2>
-              <p class="subtitle">September 2020 - December 2020</p>
+              <p class="subtitle">September 2020 - December 2020 & September 2021 - December 2021</p>
               <a href="http://www.cas.mcmaster.ca/~leduc/2D04.html">course website</a>
-              <p>I am responsible for supervising, assisting, and evaluating student's lab work.</p>
+              <p>Responsible for supervising, assisting, and evaluating student's lab work.</p>
               <p>The labs consist of programming Intel FPGAs using<a href="https://www.intel.ca/content/www/ca/en/software/programmable/quartus-prime/overview.html">Quartus Prime</a>.</p>
             </div><br/>
             <img src="images/internshipwill.jpg" alt="Will Selfie" class="image"/>
