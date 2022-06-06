@@ -11,7 +11,7 @@ class Home extends React.Component {
         <div>
           <div class="container">
             <h1>About Me</h1>
-            
+            <img src="images/kite.png" class="image2" alt="Kite"/>
             <div>
               <p>I am a new graduate Software Engineer from McMaster University's Software Engineering and Management program.</p>
               <p>Find Me On:</p>
@@ -24,14 +24,28 @@ class Home extends React.Component {
                 </li>
               </ul>
             </div>
-            
-            <img src="images/kite.png" class="image2" alt="Kite"/>
-
           </div>
           
           <div class="container">
             <h1>Work Experience</h1>
             <a href="Will_Donaldson_Resume.pdf">Resume</a><br/><br/>
+            <img src="images/fireball-blue.png" alt="McMaster Fireball" class="image"/>
+            <div class="right">
+              <h2>Algorithms and Complexity TA - McMaster University</h2>
+              <p class="subtitle">January 2022 - April 2022</p>
+              <p>Responsible for assiting students and evaluating course work.</p>
+              <p>Course topics include:</p>
+              <ul>
+                <li>Worst case analysis of algorithms</li>
+                <li>Divide-and-Conquer algorithms</li>
+                <li>Greedy algorithms</li>
+                <li>Dynamic Programming</li>
+                <li>Network Flows</li>
+                <li>Turing-Church Thesis, complexity classes (P, NP, PSPACE)</li>
+                <li>Approximation algorithms</li>
+                <li>Randomized algorithms</li>
+              </ul>
+            </div><br/><br/>
             <img src="images/gymnext_logo.png" alt="GymNext Logo" class="image"/>
             <div class="right">
               <h2>Engineering Intern</h2>
